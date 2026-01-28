@@ -1,0 +1,38 @@
+/* Header Styles */
+
+.header {
+  background: var(--bg-primary);
+  border-bottom: 3px solid var(--brand-primary);
+  display: flex;
+  align-items: flex-end;
+  padding: 20px 48px 0 48px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-bottom: -3px;
+}
+
+.logo-image {
+  height: 150px;
+  width: auto;
+}
+
+.logo-text {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--brand-primary);
+  margin-left: -4px;
+}
+
+/* Mobile header */
+@media (max-width: 768px) {
+  .header {
+    padding: 0 16px;
+  }
+}
