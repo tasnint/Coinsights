@@ -9,6 +9,7 @@ import (
 	"path/filepath"
 
 	"github.com/joho/godotenv"
+	"github.com/tasnint/coinsights/internal/analyzer"
 	"github.com/tasnint/coinsights/internal/config"
 	"github.com/tasnint/coinsights/internal/models"
 	"github.com/tasnint/coinsights/internal/scrapers"
@@ -137,6 +138,32 @@ func main() {
 				printAISummary(aiResults)
 			}
 		}
+	}
+
+	// ========================================
+	// ANALYZE EXISTING YOUTUBE DATA
+	// ========================================
+	fmt.Println("\n🔍 ANALYZING YOUTUBE DATA...")
+	fmt.Println("----------------------------")
+
+	youtubeDataPath := "../../data/youtube_latest_results.json"
+	if _, err := os.Stat(youtubeDataPath); err == nil {
+		ytAnalyzer := analyzer.NewYouTubeAnalyzer()
+		analysisResult, err := ytAnalyzer.AnalyzeFile(youtubeDataPath)
+		if err != nil {
+			log.Printf("⚠️  Analysis error: %v", err)
+		} else {
+			// Print summary to console
+			ytAnalyzer.PrintSummary(analysisResult)
+
+			// Save analysis results
+			analysisPath := "../../data/youtube_analysis.json"
+			if err := analyzer.SaveAnalysisResults(analysisResult, analysisPath); err != nil {
+				log.Printf("⚠️  Failed to save analysis: %v", err)
+			}
+		}
+	} else {
+		fmt.Println("⚠️  No youtube_latest_results.json found. Run YouTube scraping first.")
 	}
 
 	fmt.Println("\n✅ All scraping complete!")

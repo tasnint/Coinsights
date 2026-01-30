@@ -3,6 +3,7 @@ module github.com/tasnint/coinsights
 go 1.24.0
 
 require (
+	github.com/ethereum/go-ethereum v1.14.12
 	github.com/gocolly/colly/v2 v2.3.0
 	github.com/google/generative-ai-go v0.20.1
 	github.com/joho/godotenv v1.5.1

@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { Issue, Resolution, Attestation, VerificationResponse, BlockchainStats, ChainConfig, ResolutionEvidence } from '../types';
 
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080/api';
 
@@ -52,6 +53,61 @@ export const scraperApi = {
   triggerYouTubeSearch: (query: string) => api.post('/scraper/youtube', { query }),
   triggerAiAnalysis: (query: string) => api.post('/scraper/ai', { query }),
   getLatestResults: () => api.get('/scraper/results/latest'),
+};
+
+// ============================================
+// BLOCKCHAIN / ATTESTATION API
+// ============================================
+
+// Issues API
+export const issuesApi = {
+  getAll: (status?: string) => 
+    api.get<{ issues: Issue[]; count: number }>('/issues', { params: { status } }),
+  getById: (id: string) => 
+    api.get<Issue>(`/issues/${id}`),
+  create: (issue: Partial<Issue>) => 
+    api.post<Issue>('/issues', issue),
+  update: (id: string, update: Partial<Issue>) => 
+    api.patch<Issue>(`/issues/${id}`, update),
+};
+
+// Resolutions API
+export const resolutionsApi = {
+  getAll: (status?: string) => 
+    api.get<{ resolutions: Resolution[]; count: number }>('/resolutions', { params: { status } }),
+  getById: (id: string) => 
+    api.get<Resolution>(`/resolutions/${id}`),
+  create: (issueId: string, summary: string, evidence: ResolutionEvidence) => 
+    api.post<Resolution>('/resolutions', { issue_id: issueId, summary, evidence }),
+  getAttestation: (id: string) => 
+    api.get<Attestation>(`/resolutions/${id}/attestation`),
+};
+
+// Attestations API
+export const attestationsApi = {
+  create: (resolutionId: string) => 
+    api.post<{ success: boolean; attestation: Attestation }>('/attestations', { resolution_id: resolutionId }),
+  verify: (params: { evidence_hash?: string; resolution_id?: string }) => 
+    api.post<VerificationResponse>('/attestations/verify', params),
+};
+
+// Blockchain Info API
+export const blockchainApi = {
+  getInfo: () => 
+    api.get<{ chain: ChainConfig; wallet_address: string; supported_chains: Record<string, ChainConfig> }>('/blockchain/info'),
+  getStats: () => 
+    api.get<BlockchainStats>('/blockchain/stats'),
+  hashEvidence: (evidence: ResolutionEvidence) => 
+    api.post<{ hash: string }>('/blockchain/hash', evidence),
+  // Demo endpoint for testing the full workflow
+  runDemoWorkflow: () => 
+    api.post<{
+      workflow_complete: boolean;
+      issue: Issue;
+      resolution: Resolution;
+      evidence_hash: string;
+      next_steps: Record<string, string>;
+    }>('/demo/full-workflow'),
 };
 
 export default api;
