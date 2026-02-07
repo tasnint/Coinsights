@@ -12,8 +12,6 @@ This project emphasizes backend systems, data integrity, and blockchain primitiv
 
 ---
 
-## 🎨 Logo
-
 ![Coinsights Logo](assets/coinsights_logo.png)
 
 ---
