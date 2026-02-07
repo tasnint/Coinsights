@@ -194,7 +194,7 @@ func (gs *GeminiScraper) SearchMultipleQueries(ctx context.Context, queries []st
 			// Check if it's a rate limit error
 			if strings.Contains(err.Error(), "429") || strings.Contains(err.Error(), "RESOURCE_EXHAUSTED") {
 				waitTime := time.Duration((retry+1)*30) * time.Second
-				fmt.Printf("⏳ Rate limited, waiting %v before retry %d/%d...\n", waitTime, retry+1, maxRetries)
+				fmt.Printf("Rate limited, waiting %v before retry %d/%d...\n", waitTime, retry+1, maxRetries)
 				time.Sleep(waitTime)
 			} else {
 				break // Non-rate-limit error, don't retry

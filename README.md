@@ -1,10 +1,23 @@
 # 🪙 Coinsights
 
-**AI-Powered Cryptocurrency Exchange Complaint Analyzer**
+**Backend-Focused Cryptocurrency Exchange Complaint Analyzer with On-Chain Verification**
 
-Coinsights scrapes and analyzes user complaints about cryptocurrency exchanges (starting with Coinbase) from multiple sources including YouTube comments, Reddit discussions, news articles, and review sites using AI-powered search.
+> *This project demonstrates my interest in **Coinbase** and **blockchain technologies** through a backend-heavy implementation featuring Go APIs, Solidity smart contracts, and on-chain attestations.*
 
-![Coinsights Dashboard](assets/oinsights.png)
+Coinsights scrapes and analyzes user complaints about cryptocurrency exchanges (starting with Coinbase) from multiple sources including YouTube comments, Reddit discussions, news articles, and review sites using AI-powered search. Verified resolutions are recorded on-chain for immutable proof.
+
+---
+
+## 🎯 Project Focus
+
+This is a **backend-focused** project showcasing:
+- **Go (Golang)** REST API development
+- **Blockchain integration** with Ethereum/Base
+- **Smart contract** development in Solidity
+- **AI-powered data analysis** using Google's Gemini
+- **Web scraping** from YouTube and other sources
+
+The frontend is intentionally minimal - just plain text displaying issues and their resolution status.
 
 ---
 
@@ -16,12 +29,12 @@ Coinsights scrapes and analyzes user complaints about cryptocurrency exchanges (
   - News articles & review sites (Trustpilot, BBB, Consumer Reports)
   - YouTube video content analysis
 - **Structured Output** - Categorizes complaints by type (fees, support, security, etc.)
-- **Modern React Dashboard** - Clean UI to visualize and explore complaint data
 - **⛓️ On-Chain Verification** - Tamper-proof blockchain attestations for resolved issues:
   - Evidence hashing with Keccak256
   - Smart contract on Base (Coinbase L2)
   - Public, verifiable resolution records
   - Chain-of-custody audit trail
+- **Minimal Frontend** - Simple text-based display of issues and resolutions (no styling)
 
 ---
 
@@ -29,29 +42,22 @@ Coinsights scrapes and analyzes user complaints about cryptocurrency exchanges (
 
 ```
 Coinsights/
-├── backend/                 # Go backend
+├── backend/                 # Go backend (main focus)
 │   ├── cmd/server/         # Main entry point
 │   ├── internal/
 │   │   ├── api/            # HTTP handlers & middleware
 │   │   ├── config/         # Configuration settings
 │   │   ├── models/         # Data models
 │   │   ├── scrapers/       # YouTube & Gemini scrapers
-│   │   └── services/       # Business logic (incl. blockchain)
+│   │   └── services/       # Business logic (blockchain service)
 │   └── pkg/utils/          # Utility functions
 ├── contracts/              # Solidity smart contracts
 │   └── ResolutionAttestation.sol
-├── frontend/               # React TypeScript frontend
-│   ├── public/
+├── frontend/               # Minimal React frontend (plain text)
 │   └── src/
-│       ├── components/     # React components
-│       │   └── blockchain/ # Verification UI components
-│       ├── pages/          # Page components
-│       ├── services/       # API services
-│       ├── styles/         # CSS styles
-│       └── types/          # TypeScript types
+│       ├── App.tsx         # Single component - displays issues/resolutions
+│       └── index.tsx       # Entry point
 ├── data/                   # Scraped data output
-│   ├── youtube_latest_results.json
-│   └── gemini_latest_results.json
 └── assets/                 # Images & assets
 ```
 
@@ -59,24 +65,22 @@ Coinsights/
 
 ## 🛠️ Tech Stack
 
-### Backend
-- **Go 1.24+** - Fast, compiled language
+### Backend (Primary Focus)
+- **Go 1.24+** - Fast, compiled language for API development
 - **Colly** - Web scraping framework
 - **Google Gemini AI** - AI-powered search with grounding
 - **YouTube Data API v3** - Video and comment scraping
 - **go-ethereum** - Ethereum client library for blockchain interactions
 
-### Frontend
-- **React 18** - UI framework
-- **TypeScript** - Type safety
-- **React Router** - Navigation
-- **Lucide React** - Icons
-- **Axios** - HTTP client
-
 ### Blockchain
 - **Solidity** - Smart contract language
-- **Base (Coinbase L2)** - Deployment network
-- **Keccak256** - Evidence hashing
+- **Base (Coinbase L2)** - Deployment network (testnet)
+- **Keccak256** - Evidence hashing for attestations
+
+### Frontend (Minimal)
+- **React 18** - Simple display of data
+- **TypeScript** - Type safety
+- No styling libraries - plain HTML/text output
 
 ---
 

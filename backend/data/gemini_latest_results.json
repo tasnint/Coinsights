@@ -1,1 +1,292 @@
-[]
+[
+  {
+    "query": "coinbase user complaints and problems from reddit discussions 2024 2025",
+    "summary": "Coinbase users have expressed frustration with locked accounts, funds being inaccessible, and poor customer service experiences. Some users also report high fees and difficulties with the verification process, while others claim to have had no issues with the platform.",
+    "key_complaints": [
+      {
+        "category": "account_issues",
+        "description": "Accounts being locked for extended periods, preventing users from sending crypto or accessing funds.",
+        "frequency": "common",
+        "platform": "reddit"
+      },
+      {
+        "category": "customer_support",
+        "description": "Useless customer support that goes in circles, asking for the same information repeatedly without resolving the issue.",
+        "frequency": "common",
+        "platform": "reddit"
+      },
+      {
+        "category": "withdrawal_problems",
+        "description": "Difficulty withdrawing funds, with withdrawals being blocked or delayed.",
+        "frequency": "occasional",
+        "platform": "reddit"
+      },
+      {
+        "category": "verification",
+        "description": "Tedious verification processes, including repeated requests for ID and personal information, sometimes without resolution.",
+        "frequency": "occasional",
+        "platform": "reddit"
+      },
+      {
+        "category": "fees",
+        "description": "Unexpectedly high fees for transactions, sometimes exceeding the transaction amount.",
+        "frequency": "occasional",
+        "platform": "reddit"
+      },
+      {
+        "category": "security",
+        "description": "Funds disappearing or accounts being reviewed for extended periods under the guise of security or fraud prevention.",
+        "frequency": "occasional",
+        "platform": "reddit"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Am I only one who had no issues with coinbase? - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJd6wCBm4lu6ZBziZcpcYOrr_-2J98hXbck1k4NbuZsWgk9OCBBsoptOgWX2MHHAtXnGMtL3wAMelwMgDPKyE0DIbomxWfGLQgQyEcWhlr7NjWF8FdK7cssAwRRl_0nibeNt7AnThipo3Ky2kHrNgrnBqWzcXGToGoxozSx0Edv6qsxQcFczSfdpBmAclVZIy9_04Dv_9_ck3zw80=",
+        "domain": "vertexaisearch.cloud.google.com"
+      },
+      {
+        "title": "REAL COINBASE EXPERIENCE - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJeOtnd4QSdmUOrwij04ncvWuNIJ9iiCCTQ80r5Q7qBiMv_m_73sLVm7J-KwO7kYxXWbV9WgJDKd8WMH3jWsrYOo3EP3Ayf5OuExpMPSh4mqJoCKuX1yHbkMgKD6HY8jtX-YtTItN6Gp1flEf9a6fi6nzIhvGRN50HounTa-xf0Yzlxb4mxw0=",
+        "domain": "vertexaisearch.cloud.google.com"
+      },
+      {
+        "title": "Coinbase is ridiculous - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2eNOVLR4IBd1LX9BSH_g8vb7Ne2U6yg5Eaql622ZLHraJIbbuT3DCJjvmgKN-dCwXIu3XrrkmBi13vS3qoOD2k-zydhSLghyh6yLla3YOvi-EuRRVDzPbsYdlknwGB1VCrzOBPUXqTw4_Ar0wM7eoqD0rhp0XZAwPiEBJ4lOo43bQizah",
+        "domain": "vertexaisearch.cloud.google.com"
+      },
+      {
+        "title": "Coinbase account under review, I have over 130k usdc, need help!!! - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-OBFnvcpy-T-KkzxZs-xkxE3J18w09MGDPw-VnenoUs8Go-qZF20vEkUAqmPE7ExsFMIXaiXV8WsQqcmIp8OX5n65Lb77HyxHW_SohHESYwtnm1syA0TIq1ENuojAdeZPOMlXVzNioOysBaAuYcCj00fJ33GnrHrGB568UVyImpqkCykdSPBAzxH2lYY1Mzl4_XPm9Wjs0BG75mZJ",
+        "domain": "vertexaisearch.cloud.google.com"
+      },
+      {
+        "title": "Coinbase issues starting off 2025 : r/Coinbase - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWsKtGt5iC03WLuaQx7nLhBLE1MKloYmDLilpru7FS9J_WjP_V0KMmCepUN78_5OZnxxvKO3e6WMdJgohWaduycWqwomN44IIl_r_WOXnB600rAiNz-K5qs9dTAyS2bfoRzcaNlbqCmS9DI1BDxDBn1YKqYp4phUgf7XzdHmAYOxlnG-gBBECoIH1ep4UWFfM=",
+        "domain": "vertexaisearch.cloud.google.com"
+      }
+    ],
+    "sentiment_breakdown": {
+      "negative": 0.7,
+      "neutral": 0.2,
+      "positive": 0.1
+    },
+    "generated_at": "2026-01-30T02:00:17.6149311-05:00"
+  },
+  {
+    "query": "coinbase customer complaints reviews news articles trustpilot bbb consumer reports",
+    "summary": "Coinbase users have recently expressed concerns regarding high and unexpected fees, difficulties in withdrawing funds, and poor customer service experiences. Some users also report account access issues and funds being frozen for extended periods.",
+    "key_complaints": [
+      {
+        "category": "fees",
+        "description": "Unexpected or hidden fees, including fees charged even with a subscription meant to avoid them; refund fees.",
+        "frequency": "common",
+        "platform": "reddit, trustpilot"
+      },
+      {
+        "category": "withdrawal_problems",
+        "description": "Difficulty withdrawing funds, including measures taken to prevent access to funds and requests to add more money before withdrawals are allowed.",
+        "frequency": "common",
+        "platform": "trustpilot, bbb"
+      },
+      {
+        "category": "customer_support",
+        "description": "Poor customer service, unhelpful or non-existent human interaction, and delays in resolving issues.",
+        "frequency": "common",
+        "platform": "trustpilot, reddit"
+      },
+      {
+        "category": "account_issues",
+        "description": "Accounts being disabled, locked, or frozen, preventing users from accessing their funds or trading.",
+        "frequency": "occasional",
+        "platform": "bbb, mashable"
+      },
+      {
+        "category": "security",
+        "description": "Accounts being compromised and funds sent to unknown wallets; users being contacted and scammed after losing account access.",
+        "frequency": "occasional",
+        "platform": "bbb"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Coinbase review scam - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtLfZlHTEMBq6l2HhrA-xSOCqe9_AqIYTGOlc977QvXFo5resQpGrM_auNtPHQwO3-sbag2llDKxqarJAMDmHgk0UcrjmcsqLiquFPp9fy3097nxZTDuUWEcbHS0xSwbQwPpdxFxK5cSYyweu3Td2YVUVrLbqHhsDJ3Fp2SMfTge-T",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Coinbase, Inc | BBB Complaints | Better Business Bureau",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj98dW8Yk1mzs0U4puIoioERAQUhyHj6US_2KcuoEOO70UzRieYCSxion9jbt0lpM6ggLgzZpbZ6VXQaDfHSx4jFBdCBTOsZf3qLRctGNkDe4MmPyN2jPUbDQt96YhH3Kp3ZkBWJzTZViovgXxfYGD2WtEMyY3cPOulpnCsvKj-X7V3SbOJr2SDndZ0YF2JLbTkYXtEPO_-Pu8Dct0_KcvpB7EkHw0dhlgnJaK",
+        "domain": "bbb.org"
+      },
+      {
+        "title": "Coinbase sees scores of Better Business Bureau customer complaints | Mashable",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLCrFSEfOKltNeT_EYMHSi7mgf3VqrwFEB6x7ok3w4EoAVOAXUFYvEyDL0R7RE2zOhdzSU4xXDZ88iaoDRfTklpY209fFWBjU0NLSpsyo-M2TrmdWiEiIVXY065hdNjRTQM5g1xzhiZbYaXTMfA1-zS1hq2LUbXeM-AvK8B-J0mbE=",
+        "domain": "mashable.com"
+      },
+      {
+        "title": "Read Customer Service Reviews of coinbase.com - Trustpilot",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETNHyCi8HqNTPEP8hvcpvvzg_91lbiOAY1vhb2a2V2tIKsxmGvxpJr9FDsv1Ub0z5snkEWzk9kvHGWtelVyWLoogf2uuJfenClwiJ53FVKCDmLpjm3I73UmkSCBZ4TCTv2EJ6_qg8UBA==",
+        "domain": "trustpilot.com"
+      },
+      {
+        "title": "Read Customer Service Reviews of coinbase.com | 8 of 563 - Trustpilot",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtvcnipzfgyNHvAJzAxpg4BF9rHPHCD52TyBxzINaRZcfcH6MrlwwxTyJ9GidPYajAbrBB7WyPyoAhfeeNEDvoYybf189eSjksxhkDpDpj_zSPLCrqcwaJcstRgbAZHRx9P3lOE6LBgyD8DCK4aA==",
+        "domain": "trustpilot.com"
+      }
+    ],
+    "sentiment_breakdown": {
+      "negative": 0.6,
+      "neutral": 0.2,
+      "positive": 0.2
+    },
+    "generated_at": "2026-01-30T02:00:47.5953887-05:00"
+  },
+  {
+    "query": "coinbase review video analysis problems issues discussed by youtubers crypto reviewers",
+    "summary": "Coinbase is often criticized for its high fees compared to other exchanges, and users express frustration with slow and unhelpful customer support, especially regarding account restrictions and fund lockups. While many acknowledge its beginner-friendly interface, recurring complaints highlight concerns about accessibility to funds and the platform's responsiveness in resolving user issues.",
+    "key_complaints": [
+      {
+        "category": "fees",
+        "description": "High fees compared to other crypto exchanges, especially for users not using Coinbase Pro. Fees can take a significant portion of profits from trades.",
+        "frequency": "common",
+        "platform": "youtube"
+      },
+      {
+        "category": "customer_support",
+        "description": "Slow response times, unhelpful or generic responses, and difficulty resolving issues, particularly account restrictions and fund lockups. Users report long waits and inability to speak to real people.",
+        "frequency": "common",
+        "platform": "reddit, youtube, bbb"
+      },
+      {
+        "category": "account_issues",
+        "description": "Accounts being randomly restricted or locked, often with little to no explanation. Verification processes are sometimes repeated without resolution, and users are unable to access their funds. Changing phones can trigger account lockouts.",
+        "frequency": "common",
+        "platform": "reddit, bbb"
+      },
+      {
+        "category": "withdrawal_problems",
+        "description": "Delays in withdrawals, sometimes lasting for days. Inability to withdraw funds due to account restrictions or holds.",
+        "frequency": "occasional",
+        "platform": "reddit"
+      },
+      {
+        "category": "security",
+        "description": "Concerns about the security of funds and accounts, with some users reporting unauthorized access despite having 2FA enabled. Some users feel that Coinbase blames customers without proof when security breaches occur.",
+        "frequency": "occasional",
+        "platform": "reddit"
+      },
+      {
+        "category": "verification",
+        "description": "Difficulty with the verification process, including being asked to verify false information. Repeated verification requests without resolution of the underlying issue.",
+        "frequency": "occasional",
+        "platform": "reddit"
+      },
+      {
+        "category": "app_bugs",
+        "description": "Glitches in the system causing zero balances to appear and errors in buying and selling. Difficulties adjusting to frequent updates to the platform.",
+        "frequency": "rare",
+        "platform": "quora, youtube"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Brutally Honest Coinbase Review - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrcsJ4Dy04DCbvQcIWAhStHwnGNWtu2MNAjmgngMEC_R6fAIK8G9l7QV8tKEIMBWfAWag_LhGLgxb2VRLWbk1XS19XqU6_Z5WpC6PtSWek5AkbDrWYlJEcRwek8LMHb9i7D4EirQSPVUYo18lGRvCHYI97KcNwXJK5ixVjtHALr1LgJMQ6_hed2x_Df60=",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Coinbase Review - Do Not Try Until Watching This - YouTube",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE3laocjSfWLMhhQlBB_uhROQ0AZpE-kSqGZER9iAgepjKrtXIFpH_JpAEiATBKLzabxA7xM3PZGauq45f7MpKe8Uw-VCE3FOofzOMUJlOZv5ZGMpSGnnEzZuztCVrSrjXsbib468=",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Is Coinbase Safe \u0026 Trustworthy in 2024? (Detailed Review) - Swan Bitcoin",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm8B1rIMAWmfOUV-U6OdGrKJDa3vgGD-GvzIanU0d0g1Aqwz51uRrPWvS9libT8bd2QZdezpPHKSVVRdtAQYOZUdh5_mjJBgUQCY00yGLbPe12DLaTzA_m2H8GwtH9qTRfx_TmKC_h_kc-8I6FgjxNUg==",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Why are there negative reviews about Coinbase online if it is considered the best way to invest in cryptocurrency? - Quora",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLe-N_bZjHQ8q9jd69ZDobbMfqo8bAnXzcdggH2g7nEouyqf_AzUa1kgMVQ8AI5V_HQODEmg0PvAF8iXOGsgCpL2HwVEVUkQBgXabYoOeGMtQdxh6W_zfm1eJkOTG5oCZZ0ugylG4BgSypXMNzNspxmjthg_bE-MEFv6MpFuxqAX-M1s-AICaiSZECTnD8ocScJCNudARfrZQA67mld0I-9xw3VPqiwONHvV_BYxkgxboyRxpL9s64uNpGrk0Xep9s9Is=",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Coinbase Review: Biggest Pros and Cons - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHY_MXfu46NrGfPQOaq4ywy7cnth0aUDVD7BwtFrwDx4MsKCnAuzy1b-LPDcntGi2qIwwafpDO-r5pA6oWH5PTnnAPS777iS3yh4fXrepYYvFkU4D0Q1vEHQ5VgtZQXpK6tgTT1ScelEZhE_Oeb1id7w09Ty8zVA497tP3fbPrlhFsamuT0fwD3d1HEdOWpmcSMJWA=",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Coinbase Support is the WORST - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFOuJXkgjOYBZ6vlUJwrdgZ9y02Y0IcWF7NNAgAw2c_dbdlj3mcvxQz_Cdya7jNSBYkbanc5_sa44--Bve9PbyEiv5mGFfUyUsStmK486JOfqNCt6cBY7kHIRIGemr44OFdP78ibVTRgqY8vAHEOgUF6GHot6CQe6MxffEKaPNJJbCmcbHC9-CEAMNdw==",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Coinbase Security Risk - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHt9F61_WDjVcCHSAM7no08SgDxc2VqsKPBiXS_NMSIoeVfV0BjSrsacyoZFwx9eHFESoriHAUjnMDLqxMRLbF3D-F0It8QyXqHVViTkklHbLath3-6biBZTpHIm9E4pMOFrhz-wwIBncDSnHtXm2NJkYs5OjRtqGK5bMc6vUI9JA8zEWaq",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "I just found out CoinBase has the absolute worst customer service I have ever experienced from ANY company in my entire life. - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJgniAn312AM2gxcccNcovbaRLxiOUfWPQ92BZblyp-aJrligs7lTys947armLEMDX9Ew61x__FDgNV80zFL5hvi4M57C0Ik8DFduaC-bA3Oc0khyGmqX1PNUrBkh3djP4Yhh9XBBtI8W12hiK8vN2e0pjR8_lInKfG0mqOY5slyaG35rNz6ln9VcYhcgtqS2INJqNH32S9KGF29LUynM=",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Can You Trust Coinbase? | Safety, Security \u0026 | Mohawk Valley Gives",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGKpTAGJF5Sqk2xwI5GDEdXhNOw3geP69wK8BN6bMZnJkAFHVtTH3fYBo3EFtmERwkxZ1Ev53rWwPIqrb0neeFevp8R-MWKLskE3vWBkRFik_U6c13VwnZq6z_uZ2z2T1-0BCHOrwhSa9UXNNJNbLh7ehbQWT5OkBuYWSP5f9DfMGukx1uscBIbVJ8sg==",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Coinbase Investigating Account Issues, Ethereum Delays - YouTube",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc76C6uXZH1pDnUrbayD74j8exF_-WwLbrYIdYRJg1X6NgJOyXDSk9eScyfG9ZOfiNWq_84INU0KoEp0kgK3Sz77PGqQsZ_VTuf1eVar9PfrLSCM7th3u8bwpfBlcfdtXet8Ca9jM=",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Coinbase Honest Review | How To Buy Bitcoin | GOOD OR BAD IN 2021?? - YouTube",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxdTAslYj1v6AwBRrYAPcCHw15WkGnw-_xWc79Rx0XnCHRpsU78KqkWEQTRI31DoiCfJF40agoKXdyr3DLBx8Gr71zjLZh2JH6q7uM5QuMBdkmzDz_wtaq3HKI6mD3Iv7yaT6am0Y=",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Coinbase is actually terrible and I am done with them - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr43TLLGwMdSu5ApcIlLh8kaUdzWqslYUIiWwtawPnfsiYH-o3MB3ZfFJNhSOQq3sB5T0QvxGMHNBYy10fT-1ic3_3oT87Hj1X0w0xU7_hYGIvXo-3co00M_zRMvIYHDEf-P-mrAeQFGr0Ze0s7TO1ihFYNWHPYhY77kpNUp-2OCdCAFDQHfvDwGRL3PTpP5ieeRl-YebVrOazjjpd0y4=",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Coinbase Support Reviews - Read 235 Genuine Customer Reviews - REVIEWS.io",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXq6MOtPNxckj7h3oSGZmuCFVmO3KxWAGjeDPpgxt3ORMonCod8TDmk0xFaQRMriO50FifjTR-9VugLNfRslhrbGe-WcHPgHXNl6fY71cEG2eiWH3sHEgCPHrjEd4MYyhnUNfDYH1eGk1Cb1xnm3by4frKMbu-awtmZWCE",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Putting Coinbase on notice! I have filed a complaint with the Better Business Bureau.",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-bpHv1Ey34P_g7VXfizcNBUyB9PZ-Z5SJ2IZRYfxDk8VLB1cV34WmD_YKIypwrLJu5mxkDJ6jy_G_UaKQa8YuYBJTFM8ED3jhVRSnsqwE22zBuvTW9bV9TArXWoIqVSw0i2cTPvy-098a5r53C_ArWa8Pm7PpgieT9E52Q2TufKvBwKkNsH7l6YRbOCMASEzJ74bIF1ILfQ==",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Coinbase complaints : r/Coinbase - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnPcjeBXSMdCkv_zrG2luh15GmCFIN9mpV-J-OK_ka5UAIqlmgDC3bM2GckoZP-ZFI_KvWuwAAzGtX5-WyOsE6tVeMb-XiohRr-2q31RDlqxoNrWxUEt5Z9ODUftoep8FX49xY99d31tHqzlWnscNdbRMWbxEKH1SUI11kkZ3pfiJ8",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "There are too many Coinbase complaints; this is getting out of hand. - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8NCt8imTrS2GlHzvWclzRJqvH5jh1ngRRjMyObM08lFy45uSQyVQcqL8la61_Yyc7x6HEQCN1WZd4yFcYNN065IEYjbMvcQP9b5gdd0gQgDs-YczfL1EaISh518tLe05OPOLfGQadZxmlJ-9BR_5AFGfukhGINUPkJ9VLwvYfrk82AdnFtgli3yPR5bGV5o480fV55nkbnViU610M",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Common Crypto Mistakes - Coinbase Crypto University - YouTube",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfNXcBqshWv3vYwgLeoby1wLQ5aM0SghhDf_4Ed66IZc5fS_XInrNthhs3tMkJUbqUxsDFVnOFVBLBk62vJ--oriQD0TNu3NJwBej73f3UtO0Py-H1piu8ZzIUQtUKh2BKcvJFzg0=",
+        "domain": "cloud.google.com"
+      },
+      {
+        "title": "Formal Complaint: Immediate Action Required to Resolve Account Restrictions : r/Coinbase - Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCDbiTJay6WlieZUkwHDo_o1tEAKpa9x0RZajebUR1wXg_nf075O0ZXI-CZXJJW86wHlnfHg0Mjb1aU50fOfM8eh2dboI_Kg9mXFpnKBANo_3M5kJqnHesRDuDod8qMK71B8xEPdrzrophf_2wdAA893W61A27EcUdm6juzmu8gCq5hPyQi41YUVdOo2zr-kE6P_IMCTPIiZYJD4A=",
+        "domain": "cloud.google.com"
+      }
+    ],
+    "sentiment_breakdown": {
+      "negative": 0.6,
+      "neutral": 0.3,
+      "positive": 0.1
+    },
+    "generated_at": "2026-01-30T02:01:26.0394142-05:00"
+  }
+]
