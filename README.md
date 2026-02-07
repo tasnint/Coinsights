@@ -2,7 +2,13 @@
 
 **Backend-Focused Cryptocurrency Exchange Complaint Analyzer with On-Chain Verification**
 
-> A project demonstrating deep interest in **Coinbase** and **blockchain technologies** through a backend-heavy implementation featuring Go APIs, Solidity smart contracts, and on-chain attestations on Base (Coinbase's L2).
+> Coinsights is a backend-focused blockchain analytics system that monitors, categorizes, and verifies user-reported issues related to Coinbase across public platforms such as YouTube and Reddit.
+
+The system automatically scrapes large volumes of user complaints, applies AI-assisted analysis to identify recurring problem categories (e.g. security incidents, account lockouts, withdrawal failures, KYC issues), and presents real-time dashboards summarizing issue frequency, severity, and status.
+
+Beyond analytics, Coinsights introduces on-chain accountability by publishing verified issue resolutions as cryptographic attestations on Base (Coinbase’s Layer-2). Each verified resolution is hashed and immutably recorded via Solidity smart contracts, creating an append-only audit trail that demonstrates how blockchain infrastructure can be used for transparency, trust, and post-incident verification.
+
+This project emphasizes backend systems, data integrity, and blockchain primitives rather than UI polish, showcasing how Web2 data pipelines can interoperate with Web3 infrastructure in a practical, compliance-aligned way.
 
 ---
 
